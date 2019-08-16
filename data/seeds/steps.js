@@ -6,19 +6,19 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('steps').insert([
         {
-          description: "Steps",
+          description: "Push it",
           recipe_id: 1
         },
         {
-          description: "Steps",
+          description: "Pull it",
           recipe_id: 1
         },
         {
-          description: "Steps",
+          description: "Bop it",
           recipe_id: 2
         },
         {
-          description: "Steps",
+          description: "Twist it",
           recipe_id: 3
         },
         {
