@@ -5,21 +5,12 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('ingredients').insert([
-        {
-          name: 'Flour',
-          unit: 'cups',
-          quantity: '20'
-        },
-        {
-          name: 'Mushrooms',
-          unit: 'lbs',
-          quantity: '1'
-        },
-        {
-          name: 'Milk',
-          unit: 'oz',
-          quantity: '16'
-        },
+        {name: 'Rice'},
+        {name: 'Black Beans'},
+        {name: 'Flour'},
+        {name: 'Brown Sugar'},
+        {name: 'Cinnamon'},
+        {name: 'Artichoke'},
       ]);
     });
 };
